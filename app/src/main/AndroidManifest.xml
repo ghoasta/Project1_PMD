@@ -14,6 +14,9 @@
         android:theme="@style/Theme.Project1"
         tools:targetApi="31">
         <activity
+            android:name=".ListOfItems"
+            android:exported="false" />
+        <activity
             android:name=".About"
             android:exported="false" />
         <activity
