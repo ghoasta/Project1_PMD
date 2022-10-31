@@ -13,4 +13,12 @@
 
         </string>
 
+    <string name="textView_content2">
+        This is smart application for the smart students.\n
+        It contains list of restaurants around Cork.\n
+        It allows you to navigate to MTU.\n
+        It allows you to contact MTU by phone or email!
+
+    </string>
+
 </resources>
