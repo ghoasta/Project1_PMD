@@ -8,9 +8,20 @@
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>
         <item name="colorSecondaryVariant">@color/teal_200</item>
-        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorOnSecondary">@color/white</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">#28302F</item>
         <!-- Customize your theme here. -->
     </style>
+
+
+    <!--Dark mode    -->
+    <style name="SCREEN">
+        <item name="android:background">#232323</item>
+    </style>
+
+    <style name="TEXT">
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
 </resources>

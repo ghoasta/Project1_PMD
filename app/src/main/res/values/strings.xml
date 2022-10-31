@@ -2,10 +2,15 @@
     <string name="app_name">Project1</string>
 
     <string name="textView_content">
-        <center><big>Hello!</big></center>\n
-        <center>I am Andrzej Sokolowski</center>\n
-        <center>R00184058</center>\n
-    This is my First Mobile App\n
-    For PMD Project1</string>
+        <b>About Activity</b> - Activity that explains the content of each screen
+        The text is saved in strings.xml \n
+        You can change the theme of app to Dark Mode using menu.\n
+
+        <b>Home Activity</b> - This is home screen \n
+
+        <b>RecycleView Activiry</b> - Screen with recycle view with list of interesting locations to visit.\n
+        Images source are urls.
+
+        </string>
 
 </resources>

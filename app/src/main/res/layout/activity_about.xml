@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    style="@style/SCREEN"
     tools:context=".About">
 
     <TextView
@@ -12,8 +13,8 @@
         android:text="About Me"
         android:textSize="50dp"
         android:textStyle="bold"
-        android:textColor="@color/black"
         android:gravity="center"
+        style="@style/TEXT"
         android:id="@+id/txtAbout"/>
 
     <TextView
@@ -23,8 +24,8 @@
         android:layout_below="@+id/txtAbout"
         android:layout_marginTop="-2dp"
         android:padding="15sp"
+        style="@style/TEXT"
         android:text="@string/textView_content"
-        android:textColor="@color/black"
         android:textSize="25sp" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
